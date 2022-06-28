@@ -1,0 +1,27 @@
+{
+  "name": "s07-atelier-okanban-front-red",
+  "version": "1.0.0",
+  "description": "On termine les fonctionnalités de notre oKanban !",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify assets/js/app.js -o assets/js/bundle.min.js -p tinyify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Daguerre/S07-atelier-oKanban-front-RED.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Daguerre/S07-atelier-oKanban-front-RED/issues"
+  },
+  "homepage": "https://github.com/O-clock-Daguerre/S07-atelier-oKanban-front-RED#readme",
+  "dependencies": {
+    "tinyify": "^3.0.0"
+  }
+}
